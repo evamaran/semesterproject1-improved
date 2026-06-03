@@ -331,6 +331,19 @@ h3 {
 	transition: box-shadow 0.2s ease;
 }
 
+.visit-item--link:hover {
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+	transform: scale(1.03);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.visit-item--static {
+	box-shadow: none;
+	transform: none;
+	cursor: default;
+}
+
 .visit-item:hover {
 	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
